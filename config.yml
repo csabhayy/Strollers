@@ -15,9 +15,7 @@ params:
 
   socialIcons:
     - name: Github
-      url: "https://github.com/dhij"
-    - name: Youtube
-      url: "https://www.youtube.com/@dhij"
+      url: "https://github.com/csabhayy"
     - name: Rss
       url: "index.xml"
 
