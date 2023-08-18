@@ -1,25 +1,40 @@
-baseURL: 'https://csabhayy.github.io/strollers/'
-languageCode: 'en-us'
-title: 'Strollers'
-theme: 'PaperMod'
+baseURL: "https://csabhayy.github.io/strollers"
+languageCode: en-us
+title: strollers
+theme: PaperMod
+
+enableEmoji: true
 
 params:
-  pprofileMode:
-        enabled: true
-        title: "Strollers" # optional default will be site title
-        subtitle: ""
-        imageUrl: "" # optional
-        imageTitle: "" # optional
-        imageWidth: 120 # custom size
-        imageHeight: 120 # custom size
-        buttons:
-            - name: Archive
-            url: "/archive"
-            - name: Github
-            url: "https://github.com/"
+  author: Abhay Sharma
+  homeInfoParams:
+    Title: "the dev blog"
+    Content: >
+    
+      - This space shares step-by-step guides for devs to building different backend/infra projects
 
-    socialIcons: # optional
-        - name: "<platform>"
-            url: "<link>"
-        - name: "<platform 2>"
-            url: "<link2>"
+  socialIcons:
+    - name: Github
+      url: "https://github.com/dhij"
+    - name: Youtube
+      url: "https://www.youtube.com/@dhij"
+    - name: Rss
+      url: "index.xml"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
