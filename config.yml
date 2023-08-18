@@ -1,0 +1,11 @@
+baseURL: 'https://csabhayy.github.io/strollers/'
+languageCode: 'en-us'
+title: 'Strollers'
+theme: 'PaperMod'
+
+params:
+  author: Abhay Sharma
+  homeInfoParams:
+    Title: "The Developer Blog"
+    Content: >
+      - This space shares guides, building and exploring different kinds of infra/backend projects 
