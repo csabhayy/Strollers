@@ -30,7 +30,7 @@ menu:
       weight: 10
     - identifier: resume
       name: Resume
-      url: /Resume
+      url: /resume
       weight: 20
     - identifier: archives
       name: Archives
